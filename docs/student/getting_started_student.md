@@ -35,15 +35,20 @@ See the [Answering Questions](answering_questions.md) page for more help with an
 
 ### Using the Workspace
 
-The Workspace provides you with various functionalities to assist you during your learning process:
-1. #### Canvas: 
+The Workspace provides you with various functionalities to assist you during your learning process. Your edits and progress in the Workspace are saved per each Question you preview. So, you will be able to view your old edits for the Question you are currently on.
+
+Here are the various functionalities:
+
+#### Canvas: 
 A pane where you can write down your thought process and notes for the previewed question (handwriting, sticky notes & text).
 
 ![Canvas Interface](images/canvas_interface.png)
 
-2. #### Chat: 
-A chat interface connecting you with helpful AI Chatbots to discuss any questions you have on the current topic you are working on.
+#### Chat: 
+A chat interface connecting you with helpful Chatbots. Chatbot agents are AI Assistants that you can chat with to ask for help or further explanations regarding the Question that you are working on. 
 
 ![Chat Interface](images/chat_interface.png)
 
-Your edits and progress in the Workspace are saved per each Question you preview. So, you will be able to view your old edits for the Question you are currently on.
+For more information on what the chatbot knows about you and how you can use it to its full potential:
+
+[Chatbot Agents - More Info](../advanced/chatbot_agents/info.md){ .md-button .md-button--primary}

@@ -42,7 +42,9 @@ docker run --env-file .env -it --name my-lambda-container -p 8080:8080 llm_chat
 This will start the evaluation function and expose it on port `8080` and it will be open to be curl:
 
 ```bash
-curl --location 'http://localhost:8080/2015-03-31/functions/function/invocations' --header 'Content-Type: application/json' --data '{"message":"hi","params":{"conversation_id":"12345Test","conversation_history": [{"type":"user","content":"hi"}]}}'
+curl --location 'http://localhost:8080/2015-03-31/functions/function/invocations' \
+--header 'Content-Type: application/json' \
+--data '{"body":"{\"message\": \"hi\", \"params\": {\"conversation_id\": \"12345Test\", \"conversation_history\": [{\"type\": \"user\", \"content\": \"hi\"}]}}"}'
 ```
 
 ### Call Docker Container From Postman
@@ -56,13 +58,7 @@ http://localhost:8080/2015-03-31/functions/function/invocations
 Body:
 
 ```JSON
-{
-    "message":"hi",
-    "params":{
-        "conversation_id":"12345Test",
-        "conversation_history": [{"type":"user","content":"hi"}]
-    }
-}
+{"body":"{\"message\": \"hi\", \"params\": {\"conversation_id\": \"12345Test\", \"conversation_history\": [{\"type\": \"user\", \"content\": \"hi\"}]}}"}
 ```
 
 Body with optional Params:

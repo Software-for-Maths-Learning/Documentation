@@ -74,6 +74,7 @@ nav:
       - Chat agents:
           - Quickstart: "advanced/chatbot_agents/quickstart.md"
           - Testing Functions Locally: "advanced/chatbot_agents/local.md"
+          - Chat Agents Information: "advanced/chatbot_agents/info.md"
 
 # Configuration
 theme:
